@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 24,
+		"terminal.integrated.fontSize": 32,
+		"workbench.colorTheme": "Visual Studio Light",
+		"files.autoSave": "onFocusChange",
+		"editor.mouseWheelZoom": true
+	}
+}
