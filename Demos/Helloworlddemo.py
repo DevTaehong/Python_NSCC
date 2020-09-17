@@ -3,7 +3,7 @@
 
 
 print("Hello world")
-print("Taehoqqqng")
+print("Taehqng")
 
 # ()
 # []
