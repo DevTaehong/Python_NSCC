@@ -12,9 +12,10 @@ def main():
     TheFinalCostIncludingTax = (coffeePrice * int(numberOfCups)) * Tax
 
     #OUTPUT - Message to user, indicating total cost
-    print("The Cost before Tax: $",TheCostBeforeTax)
-    print("The Final Cost including Tax: $",TheFinalCostIncludingTax)
+    print("The Cost before Tax: $", TheCostBeforeTax)
+    print("The Final Cost including Tax: $", TheFinalCostIncludingTax)
 
 
 
 main()
+    

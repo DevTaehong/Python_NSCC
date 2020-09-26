@@ -1,5 +1,5 @@
 def main():
-    #INPUT -- Two sets of walls and height of the room
+    #INPUT - Two sets of walls and height of the room
     
     print("The Paint shop")
 
