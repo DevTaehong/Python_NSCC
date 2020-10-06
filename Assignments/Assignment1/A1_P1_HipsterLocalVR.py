@@ -3,7 +3,7 @@
 """
 Student Name:   Taehong Min    
 Program Title:  Hipster's Local Vinyl Records
-Description:    xxxxxxxxxx
+Description:    Assignment 1 Program 1 Hipster's solution
 """
 
 def main(): #<-- Don't change this line!
