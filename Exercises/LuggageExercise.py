@@ -18,7 +18,7 @@ def main(): #<-- Don't change this line!
         print("Your luggage exceeds the weight limit, a ${0} surcahge is applied.".format(surchargeAmount))
 
     if int(weight) <= maxLimit:
-        print("Your luggahge is under 50lbs, No surcahrge")
+        print("Your luggahge is under the max weight limit, No surcahrge")
 
     print("Thank you for using our airline")
 
