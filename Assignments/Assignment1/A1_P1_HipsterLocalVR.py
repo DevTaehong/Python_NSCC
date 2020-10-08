@@ -3,16 +3,21 @@
 """
 Student Name:   Taehong Min    
 Program Title:  Hipster's Local Vinyl Records
-Description:    Assignment 1 Program 1 Hipster's solution
+Description:    Developing a console application solution
 """
 
 def main(): #<-- Don't change this line!
     #Write your code below. It must be indented!
+    
     #INPUT
+
+    #Intro Message and input Messages 
     print("\nHipster's Local Vinyl Records - Customer Order Details")
     customerName = input("\nEnter the customer's name: ")
     numberKiloDistance = input("Enter the distance in kilometers for delivery: ")
     costOfAnyRecord = input("Enter the cost of records purchased: ")
+
+    #Given values
     deliveryRate = 15
     saliesTax = 0.14
 
