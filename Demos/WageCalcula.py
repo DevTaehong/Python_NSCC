@@ -14,13 +14,13 @@ def main(): #<-- Don't change this line!
 
     #INPUT
     hoursWork = float(input("Enter the number of hours you worked this week: "))
-    dollarPerHour = float(input("Enter the dollar amount you make per hour: "))
+    dollarPerHour = float(input("Enter the dollar amount you make per hour: $"))
     
     #PROCESSING
     exceeds = 40
-    amountOfmoney = 0.0
     otRate = 1.5
-
+    otPay = 0.0
+    
     if hoursWork > exceeds:
         otHours = hoursWork - exceeds
         otPay = otHours * (dollarPerHour * otRate)
@@ -31,7 +31,7 @@ def main(): #<-- Don't change this line!
 
     totalPay = otPay + regPay
     #OUTPUT
-    print("Your total wage is: ${0}".format(totalPay))
+    print("Your total wage is: ${0:.2f}".format(totalPay))
 
     
     #Your code ends on the line above
