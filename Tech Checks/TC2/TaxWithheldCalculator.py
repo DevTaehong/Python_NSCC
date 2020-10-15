@@ -22,7 +22,7 @@ def main(): #<-- Don't change this line!
     provinWhithheld = provinHoldingTax * float(weeklySalary)
     federalWhithheld = federalHoldingTax * float(weeklySalary)
     dependentDeduction = deduction * float(dependents) * float(weeklySalary)
-    totalWithheld = provinWhithheld + federalWhithheld - float(dependentDeduction)
+    totalWithheld = provinWhithheld + federalWhithheld - dependentDeduction
     totalTakehomepay = float(weeklySalary) - totalWithheld
 
     #OUTPUT
