@@ -11,6 +11,9 @@ def main():
     TheNumberOfGallons = int(TheWidthOfWalls) * int(TheHeight)
     Gallons = TheNumberOfGallons * Feet
 
+
+    
+
     #OUTPUT - the number of gallons 
 
     print("The amount of paint you need is:",Gallons)

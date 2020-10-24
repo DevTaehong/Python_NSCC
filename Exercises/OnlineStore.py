@@ -8,7 +8,7 @@ Description:    In class exercise!
 
 def main(): #<-- Don't change this line!
     #Write your code below. It must be indented!
-    print("Online Store")
+    print("Online Store") 
     
     #User inputs - which country and order total
     orderAmount = float(input("Enter the amount of your order: $"))
