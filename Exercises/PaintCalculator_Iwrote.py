@@ -13,7 +13,6 @@ def gallons_of_paint(totalAreaInSecondFucntion):
     square_feet_per_gallon = 150.0
     gallons_of_paintInFucntion = math.ceil(totalAreaInSecondFucntion / square_feet_per_gallon)
     print("You will need {0} gallon(s) of paint. \n\nHappy Painting!".format(gallons_of_paintInFucntion))
-#Declare variable for # of sq. ft. covered by one gallon of paint
 
 #Intro messages
 print("Welcome to the Paint Shop!")
@@ -27,14 +26,4 @@ height = float(input("Enter the height of the room, in feet: "))
 
 totalArea = areaOfWall(length, width, height)
 gallons_of_paint(totalArea)
-#PROCESSING
-#Calculate the area of the walls
-
-
-#Divide the area by 150 square feet and
-#round number of gallons up to the nearest whole number
-
-
-#OUTPUT - Display number of gallons needed
-
 
