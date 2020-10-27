@@ -9,6 +9,7 @@ Description:    Making a program that computes the price of landscapeing
 def main(): #<-- Don't change this line!
     #Write your code below. It must be indented!
 
+    #Variables and Initializing 
     labourCharge = float(1000)
     overSquare = float(5000)
     typeGrass = "" 
@@ -21,31 +22,43 @@ def main(): #<-- Don't change this line!
     treeCharge = float(100)
 
     #INPUT
+    #Input Messages
     houseNum = input("Enter House Number: ")
     depth = int(input("\nEnter property depth (feet): "))
     width = int(input("\nEnter property width (feet): "))
-    typeGrass = input("\nEnter type of grass (fescue, bentgrass, campus): ").lower()
+    typeGrass = input("\nEnter type of grass (fescue, bentgrass, campus): ").lower() #for lower case
     treeNum = float(input("\nEnter the number of trees: "))
+
     #PROCESSING
+    #Calculate surface value!
     surface = float(width * depth)
+
+    #Decision among fescue, bentgrass, campus and then calculating!
     if typeGrass == "fescue":
+        #over 5000 square feet, add $500
         if surface > overSquare:
             cost = surface * costFescue + overCost
+        #under 5000, no add $500
         else:
             cost = surface * costFescue
 
     elif typeGrass == "bentgrass":
+        #over 5000 square feet, add $500
         if surface > overSquare:
             cost = surface * costBentgrass + overCost
+        #under 5000, no add $500
         else:
             cost = surface * costBentgrass
 
     elif typeGrass == "campus":
+        #over 5000 square feet, add $500
         if surface > overSquare:
             cost = surface * costCampus + overCost
+        #under 5000, no add $500
         else:
             cost = surface * costCampus
 
+    #Calculate total cost according to decision!!!!
     totalCost = cost + labourCharge + (treeNum * treeCharge)
 
     #OUTPUT

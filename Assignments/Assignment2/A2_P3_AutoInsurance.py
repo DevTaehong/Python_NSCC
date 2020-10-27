@@ -8,6 +8,8 @@ Description:    Writing a program that computes monthly insurance
 
 def main(): #<-- Don't change this line!
     #Write your code below. It must be indented!
+
+    #Variables and Initializing 
     fistAge = 15
     secondAge = 25
     thirdAge = 40
@@ -22,24 +24,34 @@ def main(): #<-- Don't change this line!
     lastFemalePriceRaTe = 0.10
     
     #INPUT
-    gender = input("Are you 'Male' or 'Female': ").lower()
+    #Input message!!
+    gender = input("Are you 'Male' or 'Female': ").lower() #for lower case
     age = int(input("Enter your age: "))
     price = float(input("Enter the purchase price of the vehicle: "))
     
     #PROCESSING
+    #Decision between Male and Female
+    #If male
     if gender == "male":
+        # If age is 15 or greater but less than 25, 25% of price
         if age >= fistAge and age < secondAge:
             monthlyPrice =  price * firstMalePriceRate / monthOfYear
+        # If age is 25 or greater but less than 40, 17% of pirce
         elif age >= secondAge and age < thirdAge:
             monthlyPrice =  price * secondMalePriceRate / monthOfYear
+        # If age is 40 or greater but less than 70, 10% of price
         elif age >= thirdAge and age < lastAge:
             monthlyPrice =  price * lastMalePriceRate / monthOfYear
 
+    #If female
     elif gender == "female":
+        # If age is 15 or greater but less than 25, 20% of price
         if age >= fistAge and age < secondAge:
             monthlyPrice =  price * firstFemalePriceRaTe / monthOfYear
+        # If age is 25 or greater but less than 40, 15% of price
         elif age >= secondAge and age < thirdAge:
             monthlyPrice =  price * secondFemalePriceRaTe / monthOfYear
+        # If age is 40 or greater but less than 70, 10% of price
         elif age >= thirdAge and age < lastAge:
             monthlyPrice =  price * lastFemalePriceRaTe / monthOfYear
 
