@@ -18,6 +18,7 @@ def main(): #<-- Don't change this line!
     plusModifier = 0.3
     minusModifier = -0.3
     gradeWithModifier = 0.0
+    finalGrade = 0.0
 
     print("Grade Point Calculator")
     print("\nValid letter grades that can be entered: A, B, C, D, F.")
@@ -34,54 +35,69 @@ def main(): #<-- Don't change this line!
         numericValue = gradeA
         if modifier == "+":
             gradeWithModifier = numericValue
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "-":
             gradeWithModifier = numericValue + minusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "":
             gradeWithModifier = numericValue
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
 
     elif grade == "b":
         numericValue = gradeB
         if modifier == "+":
             gradeWithModifier = numericValue + plusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "-":
             gradeWithModifier = numericValue + minusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "":
             gradeWithModifier = numericValue
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
 
     elif grade == "c":
         numericValue = gradeC
         if modifier == "+":
             gradeWithModifier = numericValue + plusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "-":
             gradeWithModifier = numericValue + minusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "":
             gradeWithModifier = numericValue 
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
 
     elif grade == "d":
         numericValue = gradeD
         if modifier == "+":
             gradeWithModifier = numericValue + plusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "-":
             gradeWithModifier = numericValue + minusModifier
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "":
             gradeWithModifier = numericValue   
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
 
     elif grade == "f":
         numericValue = gradeF
         if modifier == "+":
             print("You entered an invalid letter grade.")
+            print("The numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "-":
             print("You entered an invalid letter grade.")
+            print("The numeric value is: {0}".format(gradeWithModifier))
         elif modifier == "":
             gradeWithModifier = numericValue
+            print("\nThe numeric value is: {0}".format(gradeWithModifier))
     
     else:
         print("You entered an invalid letter grade.")
-
-    finalGrade = gradeWithModifier
+        print("The numeric value is: {0}".format(finalGrade))
     
+
     #OUTPUT
-    print("\nThe numeric value is: {0}".format(finalGrade))
+    #print("\nThe numeric value is: {0}".format(finalGrade))
 
 
 
