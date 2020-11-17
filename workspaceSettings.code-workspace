@@ -10,5 +10,17 @@
 		"workbench.colorTheme": "Visual Studio Light",
 		"files.autoSave": "onFocusChange",
 		"editor.mouseWheelZoom": true
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
 	}
 }

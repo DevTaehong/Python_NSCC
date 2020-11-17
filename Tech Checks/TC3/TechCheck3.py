@@ -99,9 +99,6 @@ def main(): #<-- Don't change this line!
     #OUTPUT
     #print("\nThe numeric value is: {0}".format(finalGrade))
 
-
-
-
     #Your code ends on the line above
 
 #Do not change any of the code below!
