@@ -8,14 +8,33 @@ Description:
 
 def main(): #<-- Don't change this line!
     #Write your code below. It must be indented!
-    list = [1, 2, 3, 4, 5]
+   
+    fileName = "names.txt"
+    accessMode = "r"
 
-    for n in range(0, 6):
-        print(n)
+    with open(fileName, accessMode) as myFile:
+        # fileContentsString = myFile.read()
+        # print(fileContentsString)
+        # for i in range(4):
+        #     if i == 3:
+        #         lineContentString = myFile.readline()
+        #         print(lineContentString)
+        #     else:
+        #         lineContentString = myFile.readline()
+        #         print(lineContentString, end="")
+        import csv
+        fileContents = csv.reader(myFile)
 
+        
 
-
-
+    # try:
+    #     myFile = open(fileName, accessMode)
+    # except FileNotFoundError:
+    #     print("An error occurred")
+    # except:
+    #     print("An error occurred")
+    # finally:
+    #     myFile.close()
 
     #Your code ends on the line above
 
