@@ -29,7 +29,7 @@ def main():
     print("The numeric value for {1} is: {0:.1f}".format(FunNumericGrade5, courseName[4]))
     print("The numeric value for {1} is: {0:.1f}".format(FunNumericGrade6, courseName[5]))
   
-    print("Your grade point average for the semester is: {0:.1}".format(averageGrade))
+    print("Your grade point average for the semester is: {0:.1f}".format(averageGrade))
 
 #FUNCTION
 def fucCalculator(courseName):
