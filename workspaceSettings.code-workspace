@@ -9,7 +9,8 @@
 		"terminal.integrated.fontSize": 32,
 		"workbench.colorTheme": "Visual Studio Light",
 		"files.autoSave": "onFocusChange",
-		"editor.mouseWheelZoom": true
+		"editor.mouseWheelZoom": true,
+		"pyqt-integration.qtdesigner.path": "/Users/taehong/Downloads/Designer.app"
 	},
 	"launch": {
 		"version": "0.2.0",

@@ -13,7 +13,7 @@ def main(): #<-- Don't change this line!
     #Location of the file?
     #(type of file)
     #Purpose of use?
-    fileName = "Files\pets.csv"  #Default location is the root of your workspace folder
+    fileName = "pets.csv"  #Default location is the root of your workspace folder
     accessMode = "w"        # "w" write to file     "a" append data       "r" read data from file
 
     petList = [["Puppy", "Buster", "4"],
