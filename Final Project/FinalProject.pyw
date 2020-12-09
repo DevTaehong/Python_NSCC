@@ -8,7 +8,7 @@ import Ui_FinalProject
 
 #CHANGE THE SECOND PARAMETER (Ui_ChangeMe) TO MATCH YOUR GENERATED UI.PY FILE
 class MyForm(QMainWindow, Ui_FinalProject.Ui_MainWindow):
-#                         ^^^^^^^^^^^   Change this!
+#                         ^^^^^^^^^^   Change this!
 
     # DO NOT MODIFY THIS CODE
     def __init__(self, parent=None):

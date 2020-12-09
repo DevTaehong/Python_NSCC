@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
         self.comboBoxMilesOrKilometers.addItem("")
         self.comboBoxMilesOrKilometers.addItem("")
         self.labelAreaNumber = QtWidgets.QLabel(self.centralwidget)
-        self.labelAreaNumber.setGeometry(QtCore.QRect(510, 390, 91, 16))
+        self.labelAreaNumber.setGeometry(QtCore.QRect(510, 392, 91, 16))
         font = QtGui.QFont()
         font.setPointSize(16)
         font.setBold(True)
