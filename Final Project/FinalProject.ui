@@ -273,7 +273,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="text">
-      <string>Per Square Mile</string>
+      <string>Per Square KM</string>
      </property>
     </widget>
    </widget>

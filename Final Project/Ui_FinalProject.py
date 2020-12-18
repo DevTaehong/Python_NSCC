@@ -161,7 +161,7 @@ class Ui_MainWindow(object):
         self.comboBoxMilesOrKilometers.setItemText(1, _translate("MainWindow", "Sq. KMs"))
         self.groupBoxPopulationDensity.setTitle(_translate("MainWindow", "Population Density"))
         self.radioButtonPerSqMile.setText(_translate("MainWindow", "Per Square Mile"))
-        self.radioButtonPerSqKM.setText(_translate("MainWindow", "Per Square Mile"))
+        self.radioButtonPerSqKM.setText(_translate("MainWindow", "Per Square KM"))
         self.labelPercentageText.setText(_translate("MainWindow", "Percentage of World Population:"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
         self.actionLoad_Countries.setText(_translate("MainWindow", "Load Countries"))
